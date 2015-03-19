@@ -1,0 +1,162 @@
+/*elementi zgoraj desno*/
+.beseda {
+position: absolute;
+width: 150px;
+right: 200px;
+margin-top: 13px;
+margin-right: 3px;
+word-spacing: 10px;
+}
+ 
+.ikone {
+position: absolute;
+width: 150px;
+right: 40px;
+margin-right: 4px;
+margin-top: 5px;
+}
+ 
+/*To sem moral dati ločeno, ker t-d:none dela samo direkt na "a", v div ne dela*/
+a {
+color: #404040;
+text-decoration: none;
+font-family: Arial;
+font-size: 13px;
+}
+ 
+a: hover {
+text-decoration: underline;
+}
+ 
+/*osrednji del*/
+/*slika*/
+.google img {
+width: 300px;
+height: 150px;
+margin-top: 200px;
+margin-left: 40%;
+margin-right: 40%;
+}
+/*search box*/
+ 
+.searchbox {
+width: 568px;
+margin-top: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+ 
+.search {
+width: 550px;
+margin-top: 27px;
+height: 19px;
+}
+ 
+.gumba {
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+width: 300px;
+}
+.gumb {
+margin: 11px 8px 11px 8px;
+padding-left: 8px;
+padding-right: 8px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+font-size: 11px;
+font-weight: 700;
+text-align: center;
+font-family: Arial, sans-serif;
+color: #444;
+height: 29px;
+width: 130px;
+line-height: 27px;
+border-left-width: 0.8px;
+border-right-width: 0.8px;
+border-top-width: 0.8px;
+border-top-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+background-color:whitesmoke;
+}
+ 
+.gumb:hover {
+border-color: #b1b8ba;
+}
+ 
+.prevod {
+width: 300px;
+height: 30px;
+font-size: 13px;
+font-family: Arial, sans-serif;
+margin-left: 45%;
+margin-right: 45%;
+margin-top: 50px;
+}
+ 
+/*footer*/
+.footer {
+position: absolute;
+left: 0px;
+right: 0px;
+bottom: 0px;
+width: 100%;
+height: 40px;
+background-color: #f2f2f2;
+display: block;
+font-family: arial, sans-serif;
+font-size: 13.33px;
+border-top-style: solid;
+border-top-width: 1px;
+border-top-color: #e4e4e4;
+}
+ 
+.levo a {
+text-decoration: none;
+padding-left: 27px;
+color: #666;
+display: inline-block;
+font-family: arial, sans-serif;
+font-size: 13px;
+line-height: 40px;
+}
+ 
+.levo a:hover {
+text-decoration: underline;
+}
+ 
+.levo {
+float: left;
+height: 40px;
+width: auto;
+display: inline-block;
+line-height: 40px;
+margin-left: 20px;
+}
+ 
+.desno a {
+text-decoration: none;
+padding-right: 27px;
+color: #666;
+display: inline-block;
+font-family: arial, sans-serif;
+font-size: 13px;
+line-height: 40px;
+}
+ 
+.desno a:hover {
+text-decoration: underline;
+}
+ 
+.desno {
+width: auto;
+height: 40px;
+line-height: 40px;
+margin-right: 20px;
+float: right;
+display: inline-block;
+} 
